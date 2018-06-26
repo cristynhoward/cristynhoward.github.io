@@ -10,4 +10,4 @@ layout: page
 
 <p>As a junior engineer in the early stages of my career, I am currently on the lookout for new opportunities to put my skills to use. I thrive when working with teams who share my work ethic, collaborative mindset, and commitment to supporting diversity and inclusion in the tech community. If you think I might be a good fit for an opening on your team, I encourage you to get in touch!</p>
 
-<p>And if you're curious about what I'm up to, you can follow me on <a href="http://www.twitter.com/cristynhoward">Twitter</a>, check out my <a href="http://www.github.com/cristynhoward">Github</a> profile, or subscribe to the RSS feed of my blog!</p>
+<p>And if you're curious about what I'm up to, you can follow me on <a href="http://www.twitter.com/cristynhoward">Twitter</a>, check out my <a href="http://www.github.com/cristynhoward">Github</a> profile, or subscribe to the <a href="https://cristynhoward.github.io/feed.xml">RSS feed</a> of my blog!</p>
