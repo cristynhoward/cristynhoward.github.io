@@ -25,7 +25,7 @@ I made it because I saw a screenshot of two people playing connect four with emo
 ## Overview
 
 - [Bot Infrastructure](#bot-infrastructure)
-- [About Connect 4](#about-the-game)
+- [About the Game](#about-the-game)
 - [How to Play](#how-to-play)
 - [Accessibility](#accessibility)
 - [Code of Conduct](#code-of-conduct)
