@@ -18,7 +18,7 @@ externalLink: false
 
 [@BotConnectFour][1] is a tool that emulates the board game Connect Four on Twitter.
 
-I made it because I saw a screenshot of two people playing connect four with emojis, thought it would make a cute Twitter bot, and wanted to challenge myself to complete a project working with the Twitter API. Little did I know, I would learn to work with much more than the Twitter API in the process of completing this project, which I document in an upcoming blog post.
+I made it because I saw a screenshot of two people playing connect four with emojis, thought it would make a cute Twitter bot, and wanted to challenge myself to complete a project working with the Twitter API. Little did I know, I would learn to work with much more than the Twitter API in the process of completing this project, which I document [here][16].
 
 ---
 
@@ -108,3 +108,4 @@ Unfortunately, due to the highly visual game-play, @BotConnectFour is not access
 [13]: https://help.twitter.com/en/rules-and-policies/twitter-rules
 [14]: https://help.twitter.com/en/using-twitter/direct-messages
 [15]: https://github.com/cristynhoward/connectfour/blob/master/LICENSE.txt
+[16]: https://cristynhoward.github.io/building-bot-connect-four/
