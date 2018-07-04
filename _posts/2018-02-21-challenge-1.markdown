@@ -1,0 +1,145 @@
+---
+title: "Challenge 1: Augmented AVL Trees"
+layout: post
+date: 2017-02-21 01:44
+headerImage: false
+tag:
+- Math Challenge
+- ADT
+- AVL Tree
+category: blog
+author: cristynhoward
+description: "ADT Challenge"
+externalLink: false
+---
+
+In order to follow along with this problem and my solution, the reader should be familiar with both [Binary Search Trees][1] and [AVL Trees][2].
+
+## Problem
+
+Consider an abstract data type that consists of a set of integers, $$ S $$,  on which the following operations can be performed:
+
+* Add($$ i $$) : Adds the integer 
+$$ i $$ to 
+$$ S $$. If this integer is already in 
+$$ S $$, then 
+$$ S $$ does not change
+
+* Average($$ t $$) : Returns the average of all elements of 
+$$ S $$ that are less than or equal to the integer 
+$$ t $$. If all the elements of 
+$$ S $$ are greater than 
+$$ t $$, then return 0.
+
+Describe how to implement this abstract data type using an augmented [AVL tree][2]. 
+
+Each operation should run in $$ O(log_2(n)) $$ worst-case time, where 
+$$ n = |S| $$.
+
+___
+
+## My Solution
+
+Consider a standard, self-balancing AVL BST, with each node $$ x $$ modified to store the following values:
+
+* Let each integer $$ i \in S $$ serve as the key for node 
+$$ x $$ in the AVL tree. 
+
+* Let $$ x\text{.count}$$ equal the number of nodes in the subtree rooted at 
+$$ x $$ whose keys are less than or equal to 
+$$ x \text{.key} $$
+($$ x $$ included).
+
+* Let $$ x \text{.keysum} $$ equal the sum of the keys of the nodes in the subtree rooted at $$x$$ that are less than or equal to 
+$$ x \text{.key} $$
+($$ x $$ included).
+
+Note that for a node $$ z $$ with no children, we have 
+$$ z \text{.count} = 1 $$ and 
+$$ z \text{.keysum} = z \text{.key} $$.
+
+With these modifications in place, the two specified operations can be performed in $$ O(log_2(n)) $$ worst-case time, in the following ways.
+
+#### Add(i): 
+
+1. Perform [BST search][3] on the AVL tree to discern whether $$ i $$ is already contained in the set. Continue only if $$ i $$ is not already contained in the set.
+
+2. Create node $$ x $$ with key 
+$$ i $$.
+
+3. Insert $$ x $$ as in the same manner as [Binary Search Tree insert][4], and after insertion, go up all of $$ x $$'s ancestor nodes, and for each ancestor node whose key is greater than or equal to $$ x \text{.key} $$, add 
+$$ x \text{.key} $$ to the keysum of the ancestor and increment the ancestor's count attribute by 1.
+
+4. Do [AVL rebalancing rotations][5], except:
+
+* Whenever left subtree rooted at $$ y $$ needs to be disconnected from node $$ x $$ during rebalancing rotations, perform subroutine disconnect_left_subtree($$ x $$).
+
+{% highlight python %}
+disconnect_left_subtree(root):
+	""" Python-like pseudocode to be called as a subroutine during
+	rebalancing. 
+
+	Decrements the count and keysum of all ancestors of the left 
+	subtree by the count and keysum of the root of the subtree.
+	"""
+	# Decrement ancestors.
+	current_node = root.left_child
+	while current_node.parent is not None:
+		if current_node.parent.key >= root.left_child.key:
+			current_node.parent.keysum -= root.left_child.keysum
+			current_node.parent.count -= root.left_child.count
+			current_node = current_node.parent
+
+	# Sever connections.
+	root.left_child = None
+	left_subtree.parent = None
+{% endhighlight %}
+
+* Whenever subtree rooted at $$ y $$ must become the new left child of node $$ z $$ during rebalancing rotations, perform subroutine connect_left_subtree(y, z).
+
+{% highlight python %}
+connect_left_subtree(subtree_root, new_root):
+	""" Python-like pseudocode to be called as a subroutine during
+	rebalancing.
+
+	Increments the count and keysum of all of the new ancestors of 
+	the subtree by the count and keysum of the root of the subtree.
+	"""
+	# Connect.
+	subtree_root.parent = new_root
+	new_root.left_child = subtree_root
+	
+	# Increment ancestors.
+	current_node = subtree_root
+	while current_node.parent is not None:
+		if current_node.parent.key >= root.left_child.key:
+			current_node.parent.keysum += subtree_root.keysum
+			current_node.parent.count += subtree_root.count
+			current_node = current_node.parent
+{% endhighlight %}
+	
+Note that the while loops in both connect_left_subtree and disconnect_left_subtree iterate at most once up the height of the AVL tree, which for an AVL tree with $$ n $$ nodes is at most
+$$ \text{floor}(log_2(n)) $$. Thus the upper bound on their worst case running time is $$ O(log_2(n)) $$.
+
+#### Average(t):
+
+1. Find the node $$ x $$ in the AVL BST whose key is the largest integer in $$ S $$ that is less than or equal to 
+$$ t $$. Return 0 if no keys in 
+$$ S $$ are less than
+$$ t $$.
+
+2. Begin tallying a cumulitive keysum and count by including $$ x $$'s keysum and count.
+
+3. Go up the ancestor nodes of $$ x $$ until the tree's root is reached, and for each ancestor node whose key is less than or equal to $$ x \text{.key}$$, add that ancestor's keysum and count to the cumulitive keysum and count.
+
+4. When the AVL tree's root is reached, divide keysum by count and return the result as the average.
+
+Average$$ (t) \in O(log_2(n) $$ because the number of constant time operations is limited by the number of nodes between $$ x $$ and the root of the tree, which for an AVL tree with $$ n $$ nodes is limited above by $$ \text{floor}(log_2(n)) $$.
+
+
+
+[1]:https://en.wikipedia.org/wiki/Binary_search_tree
+[2]: https://en.wikipedia.org/wiki/AVL_tree
+[3]: https://en.wikipedia.org/wiki/Binary_search_tree#Searching
+[4]: https://en.wikipedia.org/wiki/Binary_search_tree#Insertion
+[5]: https://en.wikipedia.org/wiki/AVL_tree#Rebalancing
