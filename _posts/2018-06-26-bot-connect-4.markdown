@@ -2,7 +2,7 @@
 title: "Connect 4 Twitter Bot"
 layout: post
 date: 2018-06-26 01:44
-image: /assets/images/markdown.jpg
+image: /assets/images/skyline.jpg
 headerImage: false
 tag:
 - Python
