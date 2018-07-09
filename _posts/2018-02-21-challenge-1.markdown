@@ -1,7 +1,7 @@
 ---
 title: "Challenge 1: Augmented AVL Trees"
 layout: post
-date: 2017-02-21 01:44
+date: 2018-02-21 01:44
 headerImage: false
 tag:
 - Math Challenge
@@ -14,6 +14,8 @@ externalLink: false
 ---
 
 In order to follow along with this problem and my solution, the reader should be familiar with both [Binary Search Trees][1] and [AVL Trees][2].
+
+___
 
 ## Problem
 
@@ -134,7 +136,7 @@ $$ t $$.
 
 4. When the AVL tree's root is reached, divide keysum by count and return the result as the average.
 
-Average$$ (t) \in O(log_2(n) $$ because the number of constant time operations is limited by the number of nodes between $$ x $$ and the root of the tree, which for an AVL tree with $$ n $$ nodes is limited above by $$ \text{floor}(log_2(n)) $$.
+Average$$ (t) \in O(log_2(n)) $$ because the number of constant time operations is limited by the number of nodes between $$ x $$ and the root of the tree, which for an AVL tree with $$ n $$ nodes is limited above by $$ \text{floor}(log_2(n)) $$.
 
 
 
