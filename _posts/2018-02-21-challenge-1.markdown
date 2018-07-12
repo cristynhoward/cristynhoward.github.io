@@ -93,8 +93,8 @@ disconnect_left_subtree(root):
 			current_node = current_node.parent
 
 	# Sever connections.
+	root.left_child.parent = None
 	root.left_child = None
-	left_subtree.parent = None
 {% endhighlight %}
 
 * Whenever subtree rooted at $$ y $$ must become the new left child of node $$ z $$ during rebalancing rotations, perform subroutine connect_left_subtree(y, z).
@@ -120,8 +120,11 @@ connect_left_subtree(subtree_root, new_root):
 			current_node = current_node.parent
 {% endhighlight %}
 	
-Note that the while loops in both connect_left_subtree and disconnect_left_subtree iterate at most once up the height of the AVL tree, which for an AVL tree with $$ n $$ nodes is at most
-$$ \text{floor}(log_2(n)) $$. Thus the upper bound on their worst case running time is $$ O(log_2(n)) $$.
+Note that the while loops in both connect_left_subtree and disconnect_left_subtree iterate at most once up the height of the AVL tree, which for an AVL tree with $$ n $$ nodes is
+$$ \in O(log_2(n)) $$. 
+
+Because this is the same as the standard upper bound on the worst case running time of the unmodified Add(i) AVL operation, we can conclude that the upper bound on the worst case running time of the *modified*Add(i) AVL operation
+is also $$ O(log_2(n)) $$.
 
 #### Average(t):
 
