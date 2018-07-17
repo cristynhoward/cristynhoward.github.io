@@ -14,7 +14,7 @@ externalLink: false
 # jemoji: '<img class="emoji" title=":robot:" alt=":robot:" src="https://assets.github.com/images/icons/emoji/unicode/1F916.png" height="20" width="20" align="absmiddle">'
 ---
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I made a killer robot. <a href="https://t.co/GvVIQBn7PR">pic.twitter.com/GvVIQBn7PR</a></p>&mdash; ⃝〇˳°. (@cristynhoward) <a href="https://twitter.com/cristynhoward/status/942502860939579398?ref_src=twsrc%5Etfw">December 17, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I made a killer robot. <a href="https://t.co/GvVIQBn7PR">pic.twitter.com/GvVIQBn7PR</a></p>&mdash; ⃝〇˳°. (@cristyn_howard) <a href="https://twitter.com/cristyn_howard/status/942502860939579398?ref_src=twsrc%5Etfw">December 17, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 ---
 
