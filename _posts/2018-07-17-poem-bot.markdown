@@ -1,0 +1,25 @@
+---
+title: "Poem Bot"
+layout: post
+date: 2018-07-17 01:44
+headerImage: false
+tag: 
+- Twitter
+- Python
+- bot
+category: project
+projects: true
+author: cristynhoward
+description: "Learn a little bit about my bot @p0em_bot."
+externalLink: false
+---
+
+I built [@p0em_bot][3] using the [poemist "Random Poem" API][1]!
+
+Right now it only tweets poems that are written in English and that have a stanza structure that allows for them to easily be broken up into Twitter threads. I'm working on adding ways to intelligently format different types of poems.
+
+The source code for the poem bot is available [here][2]!
+
+[1]: https://www.poemist.com/api/v1/randompoems
+[2]: https://github.com/cristynhoward/poembot
+[3]: https://www.twitter.com/p0em_bot
