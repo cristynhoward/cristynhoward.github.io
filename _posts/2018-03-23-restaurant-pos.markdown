@@ -7,7 +7,7 @@ tag: software design
 category: project
 projects: true
 author: cristynhoward
-description: "Alpha version of single-player mode for @BotConnectFour released."
+description: "Overview of capstone project for software design course."
 externalLink: false
 ---
 
