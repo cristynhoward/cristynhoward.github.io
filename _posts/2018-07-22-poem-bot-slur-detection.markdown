@@ -17,9 +17,9 @@ The reason I initially restricted my bot to tweeting in English is because I was
 
 #### Why do I need to screen poems for slurs?
 
-Poems produced from the poemist API are written by diverse poets whose lives span a centuries. Sometimes those poems contain archiac and hurtful references to social and racial groups. For example, early on in my bot development process, my bot tweeted out a poem that contained the phrase "...righteous spilling of [archaic, demeaning racial slur] blood...". Seeing my code share something like that made me deeply uncomfortable, and I deleted it immediately. Thankfully my bot had no followers at the time. 
+Poems produced from the poemist API are written by diverse poets whose lives span a centuries. Sometimes those poems contain archiac and hurtful references to social and racial groups. For example, early on in my bot development process, my bot tweeted out a poem that contained the phrase "...righteous spilling of [racial slur] blood...". Seeing my code share something like that made me deeply uncomfortable, and I deleted it immediately. Thankfully my bot had no followers at the time. 
 
-Now, I'm happy to let my code tweet poems that I don't understand and don't agree with. My bot has tweeted poems exhalting the Abrahamic god -- that's fine by me, even though I would never say anything like that. Different viewpoints and ideologies caputured in poems shared by the bot are part of what make it interesting.
+Now, I'm happy to let my code tweet poems that I don't understand and don't agree with. Different viewpoints and ideologies caputured in poems shared by the bot are part of what make it interesting.
 
 However, treating my audience with respect is important to me. Followers of my bot sign up to occasionally see poems in their feed. They don't sign up to see their communities called racial slurs by a bot tweeting poems written by dead, racist, 19th-century poets. I am directly responsible if I allow my code to tweet poems that demean people on the basis of their identity, so setting up slur-detection was a must-have.
 
