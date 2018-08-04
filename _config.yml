@@ -1,6 +1,6 @@
 # main text of home
 name: Cristyn Howard
-bio: University of Toronto student. Software engineer. Dynamically typed.
+bio: Software engineer. Dynamically typed.
 
 # twitter summary info
 description: Cristyn Howard's portfolio & blog.
@@ -56,7 +56,7 @@ email: cristyn.howard@mail.utoronto.ca
 authors:
     cristynhoward:
         name: Cristyn Howard
-        bio: UofT student, software engineer, dynamically typed.
+        bio: software engineer; dynamically typed
         external-image: false
         picture: assets/images/profile.jpg
         twitter: cristynhoward
