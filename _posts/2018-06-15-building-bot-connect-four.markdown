@@ -14,7 +14,7 @@ description: "Here I recount the process of building a Twitter bot."
 externalLink: false
 ---
 
-I recently built [my first Twitter bot](https://cristynhoward.github.io/bot-connect-four)!
+I recently built [my first Twitter bot](https://cristynhoward.github.io/bot-connect-4)!
 
 Having never built a bot before, the process of bringing one to completion took me on a winding journey, full of new tools and interfaces.
 
