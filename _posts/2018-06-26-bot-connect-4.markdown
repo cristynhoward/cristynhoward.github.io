@@ -49,9 +49,9 @@ Visit [@BotConnectFour's Github repository][8] to review the source code.
 
 [Connect Four][9] (also known as Captain's Mistress, Four Up, Plot Four, Find Four, Four in a Row, Four in a Line and Gravitrips (in Soviet Union)) is a 20th century vertical strategy game. The earliest apparent version of the game, documented by Robbie Bell, is estimated to be Edwardian, produced c. 1901 - 1910, and is made out of Mahogany, with beech wooden game pieces.
 
-The familiar, yellow plastic adaptation of the game was [invented by Howard Wexler][10], and first sold under the [copyrighted][11] name Connect Four in 1974. Currently the copyright is held by Hasbro, Inc.
+The familiar, yellow plastic adaptation of the game was [invented by Howard Wexler][10], and first sold under the [trademark][11] Connect Four in 1974. Currently the trademark is held by Hasbro, Inc.
 
-The game consists of a a 6 by 7 board design, with 2 sets of color tokens. On each turn, the active player places one token of their colour in one of the 7 vertical shoots. The objective of the game is to connect four tokens of your colour in a vertical, horizontal, or diagonal line before your opponent does.
+The game consists of a 6 x 7 board design, with 2 sets of coloured tokens. On each turn, the active player places one token of their colour in one of the 7 vertical shoots. The objective of the game is to connect four tokens of your colour in a vertical, horizontal, or diagonal line before your opponent does.
 
 ---
 
