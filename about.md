@@ -4,10 +4,10 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>My name is Cristyn Howard, and I'm a Canadian citizen, a British national, a software engineer, and an undergraduate studying statistics and computing at the University of Toronto. I'm also a nature-lover, a patron of the arts, and a community volunteer.</p>
+<p>My name is Cristyn Howard, and I'm a Canadian & British citizen, a software developer, and an undergraduate studying Applied Mathematics at the University of Toronto. I'm also a nature-lover, a patron of the arts, and a community volunteer.</p>
 
-<p>Presently, I'm interrupting my studies for the 2018/2019 academic year to work as a Software Developer for a transnational fin-tech corporation.</p>
+<p>Presently, I'm interrupting my studies for the 2018/2019 academic year to work as a Software Developer Co-op for a transnational consumer finance corporation.</p>
 
 <p>As a junior engineer in the early stages of my career, I am on the lookout for future opportunities to put my skills to use. I thrive when working with teams who share my work ethic, collaborative mindset, and commitment to supporting diversity and inclusion in the tech community. If you think I might be a good fit for an opportunity with your organization, I encourage you to get in touch!</p>
 
-<p>And if you're curious about what I'm up to, you can follow me on <a href="http://www.twitter.com/cristyn_howard">Twitter</a>, check out my <a href="http://www.github.com/cristynhoward">Github</a> profile, or subscribe to the <a href="https://cristynhoward.github.io/feed.xml">RSS feed</a> of my blog!</p>
+<p>And if you're curious about what I'm up to, you can follow me on <a href="http://www.twitter.com/cristyn_howard">Twitter</a>, check out my <a href="http://www.github.com/cristynhoward">Github</a> profile, or subscribe to the <a ihref="https://cristynhoward.github.io/feed.xml">RSS feed</a> of my blog!</p>
