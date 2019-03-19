@@ -1,6 +1,6 @@
 # main text of home
 name: Howard, C.
-bio: Software engineer. Dynamically-typed.
+bio: Software Developer; dynamically-typed.
 
 # twitter summary info
 description: Cristyn Howard's portfolio & blog.
@@ -56,7 +56,7 @@ email: cristyn.howard@mail.utoronto.ca
 authors:
     cristynhoward:
         name: Howard, C.
-        bio: Software engineer. Dynamically-typed.
+        bio: Software Developer; dynamically-typed.
         external-image: false
         picture: assets/images/profile.jpg
         twitter: cristynhoward
