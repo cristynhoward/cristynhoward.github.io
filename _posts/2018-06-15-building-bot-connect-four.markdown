@@ -89,6 +89,6 @@ Stay up to date on my projects by following me on [Twitter][14], [Github][15], o
 [11]: https://github.com/cristynhoward/connectfour/blob/master/ConnectFourGame.py
 [12]: https://github.com/cristynhoward/connectfour/blob/master/databasehelpers.py
 [13]: https://cristynhoward.github.io/connect-four-twitter-bot/
-[14]: http://www.twitter.com/cristynhoward
+[14]: http://www.twitter.com/cristyn_howard
 [15]: http://www.github.com/cristynhoward
 [16]: https://cristynhoward.github.io/feed.xml
