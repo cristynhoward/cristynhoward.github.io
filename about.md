@@ -4,9 +4,9 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>My name is Cristyn Howard, and I'm a Canadian & British citizen, a software developer, and an undergraduate studying Applied Mathematics at the University of Toronto. I'm also a nature-lover, a patron of the arts, and a community volunteer.</p>
+<p>My name is Cristyn Howard, and I'm a Canadian and British citizen, a software developer, and an undergraduate studying Applied Mathematics at the University of Toronto. I'm also a nature-lover, a patron of the arts, and a community volunteer.</p>
 
-<p>Presently, I'm interrupting my studies for the 2018/2019 academic year to work as a Software Developer Co-op for a transnational consumer finance corporation.</p>
+<p>Recently, I stepped away from the classroom and spent a full year working as a Software Developer Co-op for Intuit, where I helped maintain the Canadian version of TurboTax Online, and contributed to a large-scale stack migration project.</p>
 
 <p>As a junior engineer in the early stages of my career, I am on the lookout for future opportunities to put my skills to use. I thrive when working with teams who share my work ethic, collaborative mindset, and commitment to supporting diversity and inclusion in the tech community. If you think I might be a good fit for an opportunity with your organization, I encourage you to get in touch!</p>
 
