@@ -7,6 +7,7 @@ tag:
 - Internship
 - Intuit
 category: blog
+star: true
 author: cristynhoward
 description: "Essential skills I learned working as a Software Developer Intern with Intuit."
 externalLink: false
