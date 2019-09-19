@@ -14,7 +14,7 @@ externalLink: false
 
 It’s been a while since I’ve written on my blog! And I haven’t contributed to any new personal projects in a while, simply because working at my internship has kept me rather preoccupied.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Top: Personal GitHub, 252 contributions in the last year.<br><br>Bottom: Work GitHub, 487 contributions in the last year. <a href="https://t.co/nXSB75fgIz">pic.twitter.com/nXSB75fgIz</a></p>&mdash; ᚛ᚉᚏᚔᚄᚈᚓᚅ᚜ (@cristyn_howard) <a href="https://twitter.com/cristyn_howard/status/1086682302858567680?ref_src=twsrc%5Etfw">January 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Top: Personal GitHub, 252 contributions in the last year.<br><br>Bottom: Work GitHub, 487 contributions in the last year. <a href="https://t.co/nXSB75fgIz">pic.twitter.com/nXSB75fgIz</a></p>&mdash; ᚛ᚉᚏᚔᚄᚈᚓᚅ᚜ (@cristyn_howard) <a href="https://twitter.com/cristyn_howard/status/1086682302858567680?ref_src=twsrc%5Etfw">January 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I’ve had an amazing year at Intuit. It was difficult to say goodbye to the team on my last day. I’ve met so many wonderful people over the past 12 months, who have helped me learn more about writing software professionally than I could learn in any class.
 
