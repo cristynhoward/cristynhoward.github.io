@@ -56,9 +56,9 @@ Without further ado, here is a list of essential skills that I learned on the jo
 * Reverse-engineering, refactoring, and building tests for old, legacy code
     * Piecing through project files to trace and identify the source of bugs
     * Getting comfortable rewriting legacy code for improved efficiency and readability
-    * Writing unit tests for a previously untested legacy classes
+    * Writing unit tests for previously untested legacy classes
 
-* Working on a cross-functional team including tax analysts, developers with other specialties, and QA testers in multiple languages (English & French)
+* Working on a cross-functional team with Tax Analysts, developers with other specialties, and QA testers for multiple languages (English & French)
 
 * Accessibility
 	* Participated in accessibility audits
