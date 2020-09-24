@@ -56,4 +56,6 @@ Because I want to wait to develop the GUI until after I have the hardware, data 
 
 But if you want to check out what I have so far — verify that the placeholder application is served without errors and with a tiny little padlock icon in the browser’s URL bar?
 
-Go to [checkonmy.fish][https://checkonmy.fish]!
+Go to [checkonmy.fish][1]!
+
+[1]: https://checkonmy.fish
