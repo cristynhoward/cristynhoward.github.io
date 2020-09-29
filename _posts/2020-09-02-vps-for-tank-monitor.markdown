@@ -11,6 +11,8 @@ tag:
 - Fish Tank Monitor
 - Backend
 - Node
+- Express
+- NGINX
 ---
 
 So, I’m planning to measure the temperature (and potentially the pH and dissolved oxygen) in my fish tank using a micro controller and sensors, send the readings to a cloud database, and render them in a GUI accessible over the internet. 
@@ -24,7 +26,7 @@ The project includes a diverse array of tasks, including:
 
 I’m aware that this outlined project is not the easiest or most straightforward way to build a digital thermometer that stores and displays past readings. I’ve chosen to approach the project this way because it’s truly “full stack” in that I’ll be doing everything from front-end web development, to database management, to server-side architecture, to micro controller programming. Essentially, I’m doing the project this way because it will exercise my skills as a software engineer. The complexity is the point.
 
-This blog post is about the last two bullet points on the list of tasks for this project: configuring my VPS to handle web traffic and serve the web application. 
+This blog post is about the last bullet point on the list of tasks for this project: configuring my VPS to handle web traffic and serve the web application. 
 
 Now, I understand that whenever you expose anything to the internet, you are essentially opening a portal to hell in terms of security, so one of my main concerns when approaching this task was providing a layer of abstraction between the actual web application I was going to have running and the web traffic requesting its content.
 
