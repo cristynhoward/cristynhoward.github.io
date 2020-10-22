@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>My name is Cristyn Howard. I'm a Canadian and British citizen, a Software Developer, and an undergraduate studying Applied Mathematics at the University of Toronto. I'm also a nature-lover, a patron of the arts, and a community volunteer.</p>
+<p>My name is Cristyn Howard. I'm a Canadian and British citizen, a Software Developer, and an undergraduate studying Mathematics at the University of Toronto. I'm also a nature-lover, a patron of the arts, and a community volunteer.</p>
 
 <p>Recently, I stepped away from the classroom and spent a full year working as a Software Developer Intern for Intuit, where I helped maintain the Canadian version of TurboTax Online, and contributed to a large-scale stack migration project.</p>
 
