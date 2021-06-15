@@ -12,6 +12,8 @@ tag:
 - bots
 ---
 
+[UPDATE: The Art Bots are Back Online](http://cristyn.ca/bots-back-baby/)
+
 I'm devastated! This week, all of my Twitter bots were suspended. 
 
 The reason for these suspensions, which all happened simultaneously, is unclear. They definitely do not violate Twitter's Rules or Terms of Service, and they were properly registered with my phone and email address. To my knowledge, they have never had a negative interaction with any user on the site, nor were they ever blocked or reported by anyone.
